@@ -89,6 +89,7 @@ def cli_mode(xml_file, output_path):
     data = parse_xml(xml_file)
     generate_excel(data, output_path)
 
+
 if __name__ == "__main__":
     # Check if script is run in CLI mode or GUI mode
     if len(sys.argv) > 1 and sys.argv[1] == "cli":
